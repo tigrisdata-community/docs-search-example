@@ -1,0 +1,28 @@
+{
+  "name": "@tigrisdata-community/memegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lancedb/lancedb": "^0.15.0",
+    "apache-arrow": "^19.0.0",
+    "dotenv": "^16.4.7",
+    "execa": "^9.5.2",
+    "express": "^4.21.2",
+    "glob": "^11.0.1",
+    "gray-matter": "^4.0.3",
+    "openai": "^4.83.0",
+    "pug": "^3.0.3",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
+    "zod": "^3.24.1"
+  }
+}

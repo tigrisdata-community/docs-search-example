@@ -1,0 +1,25 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/xess.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body(id='top')
+    main
+      h1= title
+      p Hi there! This is a simple web app that uses Express.js and Pug.
+      form(action='/search', method='get')
+        input(type='text', name='q', placeholder='Search' value=query)
+        button(type='submit') Search
+
+      if results.length
+        ul
+          each result in results
+            li
+              a(href=result.url)= result.title
+              p !{result.text}
+      else
+        p No results found.
+      
+      footer
+        p
+          | With love from the nerds at Tigris Data.
