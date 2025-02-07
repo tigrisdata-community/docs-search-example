@@ -6,9 +6,9 @@ html
   body(id='top')
     main
       h1= title
-      p Hi there! This is a simple web app that uses Express.js and Pug.
-      form(action='/search', method='get')
-        input(type='text', name='q', placeholder='Search')
+      p What do you want to know?
+      form(action='/', method='get')
+        input(type='text', name='q', placeholder='Ask me anything')
         button(type='submit') Search
       footer
         p
