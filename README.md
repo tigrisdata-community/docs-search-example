@@ -73,3 +73,13 @@ Run the server:
 ```text
 node index.js
 ```
+
+You'll see an index page like this on port 3000:
+
+![](./img/index.webp)
+
+Enter in some words and you'll see results!
+
+![](./img/results.webp)
+
+And that's how easy it is to have your own data in a vector database on Tigris! You can use the basis of this for a RAG chatbot pipeline.
